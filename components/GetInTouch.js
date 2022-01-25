@@ -45,7 +45,12 @@ function GetInTouch() {
                 target="_blank"
                 startIcon={<FaGithub />}
                 variant="contained"
-                sx={{ bgcolor: "black", color: "white" }}
+                sx={{
+                  bgcolor: "black",
+                  color: "white",
+                  marginBottom: "20px",
+                  marginRight: "10px",
+                }}
               >
                 Git Hub
               </Button>
@@ -55,7 +60,12 @@ function GetInTouch() {
                 target="_blank"
                 startIcon={<FaTwitter />}
                 variant="contained"
-                sx={{ bgcolor: "#1DA1F2", color: "white" }}
+                sx={{
+                  bgcolor: "#1DA1F2",
+                  color: "white",
+                  marginBottom: "20px",
+                  marginRight: "10px",
+                }}
               >
                 Twitter
               </Button>
@@ -65,7 +75,12 @@ function GetInTouch() {
                 target="_blank"
                 startIcon={<FaInstagram />}
                 variant="contained"
-                sx={{ bgcolor: "#cd486b", color: "white" }}
+                sx={{
+                  bgcolor: "#cd486b",
+                  color: "white",
+                  marginBottom: "20px",
+                  marginRight: "10px",
+                }}
               >
                 Instagram
               </Button>
