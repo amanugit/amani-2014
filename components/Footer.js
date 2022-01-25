@@ -40,28 +40,37 @@ function Footer() {
           <Stack direction="row" spacing={2}>
             <a
               href="https://www.facebook.com/amanuel.amani.370"
-              target="_blank"
+              rel="noopener noreferrer"
             >
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
                 <FaFacebook></FaFacebook>
               </Avatar>
             </a>
-            <a href="https://www.instagram.com/amanii2022/" target="_blank">
+            <a
+              href="https://www.instagram.com/amanii2022/"
+              rel="noopener noreferrer"
+            >
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
                 <FaInstagram></FaInstagram>
               </Avatar>
             </a>
-            <a href="https://twitter.com/Amani2021new" target="_blank">
+            <a
+              href="https://twitter.com/Amani2021new"
+              rel="noopener noreferrer"
+            >
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
                 <FaTwitter></FaTwitter>
               </Avatar>
             </a>
-            <a href="https://www.linkedin.com/in/amani2021/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/amani2021/"
+              rel="noopener noreferrer"
+            >
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
                 <FaLinkedin></FaLinkedin>
               </Avatar>
             </a>
-            <a href="https://github.com/amanugit" target="_blank">
+            <a href="https://github.com/amanugit" rel="noopener noreferrer">
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
                 <FaGithub></FaGithub>
               </Avatar>
