@@ -47,7 +47,6 @@ function Banner() {
             href="https://www.linkedin.com/in/amani2021/"
             target="_blank"
             rel="noopener"
-            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -69,7 +68,6 @@ function Banner() {
             href="https://www.facebook.com/amanuel.amani.370"
             target="_blank"
             rel="noopener"
-            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -91,7 +89,6 @@ function Banner() {
             href="https://www.upwork.com/freelancers/~01d7b91c08232c72de"
             target="_blank"
             rel="noopener"
-            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -113,7 +110,6 @@ function Banner() {
             href="https://www.freelancer.com/u/amannew49"
             target="_blank"
             rel="noopener"
-            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -170,7 +166,6 @@ function Banner() {
             href="https://www.linkedin.com/in/amani2021/"
             target="_blank"
             rel="noopener"
-            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -192,7 +187,6 @@ function Banner() {
             href="https://www.facebook.com/amanuel.amani.370"
             target="_blank"
             rel="noopener"
-            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -214,7 +208,6 @@ function Banner() {
             href="https://www.upwork.com/freelancers/~01d7b91c08232c72de"
             target="_blank"
             rel="noopener"
-            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -236,7 +229,6 @@ function Banner() {
             href="https://www.freelancer.com/u/amannew49"
             target="_blank"
             rel="noopener"
-            rel="noreferrer"
           >
             <Avatar
               sx={{
