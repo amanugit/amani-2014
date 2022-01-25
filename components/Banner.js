@@ -46,6 +46,7 @@ function Banner() {
           <a
             href="https://www.linkedin.com/in/amani2021/"
             target="_blank"
+            rel="noopener"
             rel="noreferrer"
           >
             <Avatar
@@ -67,6 +68,7 @@ function Banner() {
           <a
             href="https://www.facebook.com/amanuel.amani.370"
             target="_blank"
+            rel="noopener"
             rel="noreferrer"
           >
             <Avatar
@@ -88,6 +90,7 @@ function Banner() {
           <a
             href="https://www.upwork.com/freelancers/~01d7b91c08232c72de"
             target="_blank"
+            rel="noopener"
             rel="noreferrer"
           >
             <Avatar
@@ -109,6 +112,7 @@ function Banner() {
           <a
             href="https://www.freelancer.com/u/amannew49"
             target="_blank"
+            rel="noopener"
             rel="noreferrer"
           >
             <Avatar
@@ -144,8 +148,8 @@ function Banner() {
         }}
       >
         <Typography variant="h6" sx={{ color: "white", fontWeight: "bolder" }}>
-          " I choose a lazy person to do a hard job. Because a lazy person will
-          find an easy way to do it. " -Bill Gates
+          &quot; I choose a lazy person to do a hard job. Because a lazy person
+          will find an easy way to do it. &quot; -Bill Gates
         </Typography>
       </Box>
       <Box
@@ -165,6 +169,7 @@ function Banner() {
           <a
             href="https://www.linkedin.com/in/amani2021/"
             target="_blank"
+            rel="noopener"
             rel="noreferrer"
           >
             <Avatar
@@ -186,6 +191,7 @@ function Banner() {
           <a
             href="https://www.facebook.com/amanuel.amani.370"
             target="_blank"
+            rel="noopener"
             rel="noreferrer"
           >
             <Avatar
@@ -207,6 +213,7 @@ function Banner() {
           <a
             href="https://www.upwork.com/freelancers/~01d7b91c08232c72de"
             target="_blank"
+            rel="noopener"
             rel="noreferrer"
           >
             <Avatar
@@ -228,6 +235,7 @@ function Banner() {
           <a
             href="https://www.freelancer.com/u/amannew49"
             target="_blank"
+            rel="noopener"
             rel="noreferrer"
           >
             <Avatar
