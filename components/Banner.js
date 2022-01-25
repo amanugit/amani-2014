@@ -43,7 +43,11 @@ function Banner() {
           Hi, I Am Amanuel Ferede. A Full Stack Software Engineer
         </Typography>
         <Stack direction="row" spacing={2}>
-          <a href="https://www.linkedin.com/in/amani2021/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/amani2021/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Avatar
               sx={{
                 bgcolor: "white",
@@ -60,7 +64,11 @@ function Banner() {
               <LinkedIn />
             </Avatar>
           </a>
-          <a href="https://www.facebook.com/amanuel.amani.370" target="_blank">
+          <a
+            href="https://www.facebook.com/amanuel.amani.370"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Avatar
               sx={{
                 bgcolor: "white",
@@ -80,6 +88,7 @@ function Banner() {
           <a
             href="https://www.upwork.com/freelancers/~01d7b91c08232c72de"
             target="_blank"
+            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -97,7 +106,11 @@ function Banner() {
               <SiUpwork />
             </Avatar>
           </a>
-          <a href="https://www.freelancer.com/u/amannew49" target="_blank">
+          <a
+            href="https://www.freelancer.com/u/amannew49"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Avatar
               sx={{
                 bgcolor: "white",
@@ -149,7 +162,11 @@ function Banner() {
           Hi, I Am Amanuel Ferede. A Full Stack Software Engineer
         </Typography>
         <Stack direction="row" spacing={2} sx={{ marginLeft: "3px" }}>
-          <a href="https://www.linkedin.com/in/amani2021/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/amani2021/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Avatar
               sx={{
                 bgcolor: "white",
@@ -166,7 +183,11 @@ function Banner() {
               <LinkedIn />
             </Avatar>
           </a>
-          <a href="https://www.facebook.com/amanuel.amani.370" target="_blank">
+          <a
+            href="https://www.facebook.com/amanuel.amani.370"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Avatar
               sx={{
                 bgcolor: "white",
@@ -186,6 +207,7 @@ function Banner() {
           <a
             href="https://www.upwork.com/freelancers/~01d7b91c08232c72de"
             target="_blank"
+            rel="noreferrer"
           >
             <Avatar
               sx={{
@@ -203,7 +225,11 @@ function Banner() {
               <SiUpwork />
             </Avatar>
           </a>
-          <a href="https://www.freelancer.com/u/amannew49" target="_blank">
+          <a
+            href="https://www.freelancer.com/u/amannew49"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Avatar
               sx={{
                 bgcolor: "white",
