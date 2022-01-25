@@ -612,6 +612,153 @@ function Works() {
               </Box>
             </Box>
           </Grid>
+
+          <Grid item xs={12} sm={12} md={6}>
+            <Typography
+              variant="h5"
+              sx={{ mb: 2, fontWeight: 700, textAlign: "center" }}
+            >
+              Beatch Resort
+            </Typography>
+            <Box
+              sx={{
+                position: "relative",
+                overflow: "hidden",
+                ":hover": {
+                  "& .upCard": {
+                    bottom: 0,
+                  },
+                  "::after": {
+                    display: "block",
+                  },
+                },
+
+                "::after": {
+                  display: "none",
+                  transition: "0.2ms all easin-in-out",
+                  content: "''",
+                  position: "absolute",
+                  top: "0",
+                  bottom: "0",
+                  left: "0",
+                  right: "0",
+                  bgcolor: "black",
+                  bgcolor: "#1b5e20",
+                  opacity: "0.7",
+                  zIndex: 1,
+                },
+              }}
+            >
+              <img src="../imgs/br.jpg" style={{ width: "100%" }}></img>
+
+              <Box
+                className="upCard"
+                sx={{
+                  position: "absolute",
+                  bottom: "-100%",
+                  left: "0",
+                  right: "0",
+                  p: 2,
+                  color: "white",
+                  fontWeight: 700,
+                  bgcolor: "white",
+                  color: "black",
+                  transition: "0.5s",
+                  textAlign: "center",
+                  zIndex: 2,
+                }}
+              >
+                <Typography variant="h5" sx={{ textAlign: "center" }}>
+                  Beach Resort
+                </Typography>
+                <Typography variant="body1" sx={{ textAlign: "center" }}>
+                  Done using React, Context, styled components
+                </Typography>
+                <Button
+                  href="https://aman-real-state.herokuapp.com/"
+                  color="secondary"
+                  variant="contained"
+                  sx={{ my: 2 }}
+                  target="_blank"
+                >
+                  View the project
+                </Button>
+              </Box>
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} md={6}>
+            <Typography
+              variant="h5"
+              sx={{ mb: 2, fontWeight: 700, textAlign: "center" }}
+            >
+              Div Connector
+            </Typography>
+            <Box
+              sx={{
+                position: "relative",
+                overflow: "hidden",
+                ":hover": {
+                  "& .upCard": {
+                    bottom: 0,
+                  },
+                  "::after": {
+                    display: "block",
+                  },
+                },
+
+                "::after": {
+                  display: "none",
+                  transition: "0.2ms all easin-in-out",
+                  content: "''",
+                  position: "absolute",
+                  top: "0",
+                  bottom: "0",
+                  left: "0",
+                  right: "0",
+                  bgcolor: "black",
+                  bgcolor: "#1b5e20",
+                  opacity: "0.7",
+                  zIndex: 1,
+                },
+              }}
+            >
+              <img src="../imgs/dv.jpg" style={{ width: "100%" }}></img>
+
+              <Box
+                className="upCard"
+                sx={{
+                  position: "absolute",
+                  bottom: "-100%",
+                  left: "0",
+                  right: "0",
+                  p: 2,
+                  color: "white",
+                  fontWeight: 700,
+                  bgcolor: "white",
+                  color: "black",
+                  transition: "0.5s",
+                  textAlign: "center",
+                  zIndex: 2,
+                }}
+              >
+                <Typography variant="h5" sx={{ textAlign: "center" }}>
+                  Div Connector
+                </Typography>
+                <Typography variant="body1" sx={{ textAlign: "center" }}>
+                  Done using React, Context, React bootstrap, node and express
+                </Typography>
+                <Button
+                  href="https://dsnfs.herokuapp.com/"
+                  color="secondary"
+                  variant="contained"
+                  sx={{ my: 2 }}
+                  target="_blank"
+                >
+                  View the project
+                </Button>
+              </Box>
+            </Box>
+          </Grid>
         </Grid>
       </Container>
     </div>
