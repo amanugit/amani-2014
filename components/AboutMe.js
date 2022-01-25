@@ -7,7 +7,7 @@ function AboutMe() {
   const { state, dispatch } = useContext(Store);
   const { darkMode } = state;
   return (
-    <div id="#About">
+    <div id="About">
       <Container
         maxWidth={false}
         sx={{

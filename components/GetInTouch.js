@@ -12,7 +12,7 @@ function GetInTouch() {
     window.open("mailto:support@example.com?subject=SendMail&body=Description");
   };
   return (
-    <div id="Contact Me">
+    <div id="Contact">
       <Container
         sx={{
           bgcolor: darkMode ? "#000" : "#f5f5f5",

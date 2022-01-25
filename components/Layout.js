@@ -18,25 +18,23 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { ThemeProvider } from "@emotion/react";
 
-const pages = ["Home", "About", "Works", "Contact Me"];
+const pages = ["Home", "About", "Works", "Contact"];
 function Layout({ children }) {
   const goToLink = (e) => {
     const hash = e.target.hash;
-    const hashSelect = document.querySelector(hash);
-    let scrollTo;
 
-    let windowScrollTo = null;
     if (hash === "#home") {
-      scrollTo = 0;
-      windowScrollTo = 0;
+      window.scrollTo({
+        top: 0,
+        behavior: "auto",
+      });
     } else {
-      scrollTo = hashSelect.offsetTop;
-      windowScrollTo = scrollTo - 10;
+      const top = document.querySelectorAll(hash).offsetTop;
+      window.scrollTo({
+        top: top,
+        behavior: "smooth",
+      });
     }
-    window.scrollTo({
-      top: windowScrollTo,
-      behavior: "smooth",
-    });
   };
   const { state, dispatch } = useContext(Store);
   const { darkMode } = state;
