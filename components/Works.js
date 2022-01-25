@@ -61,7 +61,7 @@ function Works() {
                 },
               }}
             >
-              <img src="../public/imgs/wmn.jpg" style={{ width: "100%" }}></img>
+              <img src="../imgs/wmn.jpg" style={{ width: "100%" }}></img>
 
               <Box
                 className="upCard"
@@ -135,10 +135,7 @@ function Works() {
                 },
               }}
             >
-              <img
-                src="../public/imgs/mycart.jpg"
-                style={{ width: "100%" }}
-              ></img>
+              <img src="../imgs/mycart.jpg" style={{ width: "100%" }}></img>
 
               <Box
                 className="upCard"
@@ -213,7 +210,7 @@ function Works() {
                 },
               }}
             >
-              <img src="../public/imgs/pr.jpg" style={{ width: "100%" }}></img>
+              <img src="../imgs/pr.jpg" style={{ width: "100%" }}></img>
 
               <Box
                 className="upCard"
@@ -285,7 +282,7 @@ function Works() {
                 },
               }}
             >
-              <img src="../public/imgs/md.jpg" style={{ width: "100%" }}></img>
+              <img src="../imgs/md.jpg" style={{ width: "100%" }}></img>
 
               <Box
                 className="upCard"
@@ -358,7 +355,7 @@ function Works() {
                 },
               }}
             >
-              <img src="../public/imgs/fb.jpg" style={{ width: "100%" }}></img>
+              <img src="../imgs/fb.jpg" style={{ width: "100%" }}></img>
 
               <Box
                 className="upCard"
@@ -431,7 +428,7 @@ function Works() {
                 },
               }}
             >
-              <img src="../public/imgs/z.jpg" style={{ width: "100%" }}></img>
+              <img src="../imgs/z.jpg" style={{ width: "100%" }}></img>
 
               <Box
                 className="upCard"
@@ -505,7 +502,7 @@ function Works() {
                 },
               }}
             >
-              <img src="../public/imgs/na.jpg" style={{ width: "100%" }}></img>
+              <img src="../imgs/na.jpg" style={{ width: "100%" }}></img>
 
               <Box
                 className="upCard"
@@ -578,7 +575,7 @@ function Works() {
                 },
               }}
             >
-              <img src="../public/imgs/bl.jpg" style={{ width: "100%" }}></img>
+              <img src="../imgs/bl.jpg" style={{ width: "100%" }}></img>
 
               <Box
                 className="upCard"
