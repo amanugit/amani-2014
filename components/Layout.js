@@ -20,6 +20,24 @@ import { ThemeProvider } from "@emotion/react";
 
 const pages = ["Home", "About", "Works", "Contact Me"];
 function Layout({ children }) {
+  const goToLink = (e) => {
+    const hash = e.target.hash;
+    const hashSelect = document.querySelector(hash);
+    let scrollTo;
+
+    let windowScrollTo = null;
+    if (hash === "#home") {
+      scrollTo = 0;
+      windowScrollTo = 0;
+    } else {
+      scrollTo = hashSelect.offsetTop;
+      windowScrollTo = scrollTo - 10;
+    }
+    window.scrollTo({
+      top: windowScrollTo,
+      behavior: "smooth",
+    });
+  };
   const { state, dispatch } = useContext(Store);
   const { darkMode } = state;
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -119,7 +137,7 @@ function Layout({ children }) {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <MenuItem key={page} onClick={goToLink}>
                     <Typography textAlign="center">{page}</Typography>
                   </MenuItem>
                 ))}
@@ -136,8 +154,9 @@ function Layout({ children }) {
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
                 <Button
+                  href={`#${page}`}
                   key={page}
-                  onClick={handleCloseNavMenu}
+                  onClick={goToLink}
                   sx={{
                     my: 2,
                     color: darkMode ? "#fff" : "#000",
