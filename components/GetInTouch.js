@@ -33,12 +33,12 @@ function GetInTouch() {
         <Box sx={{ width: 600, margin: "auto" }}>
           <Stack
             direction={{ xs: "column", sm: "row" }}
-            spacing={{ xs: 1, sm: 2, md: 4 }}
+            spacing={{ xs: 2, sm: 2, md: 4, lg: 4 }}
             divider={<Divider orientation="vertical" flexItem />}
           >
             <Stack
               direction={{ xs: "row", sm: "column" }}
-              spacing={{ xs: 1, sm: 2, md: 2 }}
+              spacing={{ xs: 2, sm: 2, md: 2, lg: 3 }}
             >
               <Button
                 href="https://github.com/amanugit"
@@ -48,8 +48,6 @@ function GetInTouch() {
                 sx={{
                   bgcolor: "black",
                   color: "white",
-                  marginBottom: "20px",
-                  marginRight: "10px",
                 }}
               >
                 Git Hub
@@ -63,8 +61,6 @@ function GetInTouch() {
                 sx={{
                   bgcolor: "#1DA1F2",
                   color: "white",
-                  marginBottom: "20px",
-                  marginRight: "10px",
                 }}
               >
                 Twitter
@@ -78,8 +74,6 @@ function GetInTouch() {
                 sx={{
                   bgcolor: "#cd486b",
                   color: "white",
-                  marginBottom: "20px",
-                  marginRight: "10px",
                 }}
               >
                 Instagram
