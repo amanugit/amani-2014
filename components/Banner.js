@@ -7,7 +7,7 @@ import { SiUpwork, SiFreelancer } from "react-icons/si";
 function Banner() {
   return (
     <Container
-      maxWidth={false}
+      maxWidth={true}
       disableGutters={false}
       sx={{
         "::before": {
@@ -135,7 +135,7 @@ function Banner() {
           top: "130px",
           right: "30px",
           color: "white",
-          width: "500px",
+          maxWidth: "500px",
           display: {
             xs: "none",
             md: "block",
