@@ -1,4 +1,11 @@
-import { Button, Container, Divider, Stack, Typography } from "@mui/material";
+import {
+  Avatar,
+  Button,
+  Container,
+  Divider,
+  Stack,
+  Typography,
+} from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
