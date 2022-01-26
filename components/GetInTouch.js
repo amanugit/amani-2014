@@ -33,7 +33,7 @@ function GetInTouch() {
         <Box sx={{ width: 600, margin: "auto" }}>
           <Stack
             direction={{ xs: "column", sm: "column", md: "row", lg: "row" }}
-            spacing={{ xs: 2, sm: 2, md: 4 }}
+            spacing={{ xs: 2, sm: 2, md: 4, lg: 4 }}
             divider={<Divider orientation="vertical" flexItem />}
           >
             <Stack
