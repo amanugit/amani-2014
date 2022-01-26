@@ -572,7 +572,7 @@ function Works() {
                   done using html, css, scss, flexbox
                 </Typography>
                 <Button
-                  href="https://natours.netlify.app/"
+                  href="https://amani-natours.herokuapp.com/index.html"
                   color="secondary"
                   variant="contained"
                   sx={{ my: 2 }}

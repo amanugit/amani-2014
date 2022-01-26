@@ -33,7 +33,7 @@ function GetInTouch() {
         <Box sx={{ width: 600, margin: "auto" }}>
           <Stack
             direction={{ xs: "column", sm: "column", md: "row", lg: "row" }}
-            spacing={{ xs: 2, sm: 2, md: 4, lg: 4 }}
+            spacing={{ xs: 2, sm: 2, md: 1, lg: 1 }}
             divider={<Divider orientation="vertical" flexItem />}
           >
             <Stack
@@ -43,7 +43,7 @@ function GetInTouch() {
                 md: "column",
                 lg: "column",
               }}
-              spacing={{ xs: 2, sm: 2, md: 2, lg: 3 }}
+              spacing={{ xs: 2, sm: 1, md: 1, lg: 1 }}
             >
               <Button
                 href="https://github.com/amanugit"

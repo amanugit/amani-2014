@@ -105,7 +105,7 @@ function Layout({ children }) {
               Amanuel
             </Typography>
 
-            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+            <Box sx={{ display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -147,7 +147,7 @@ function Layout({ children }) {
               variant="h6"
               noWrap
               component="div"
-              sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
+              sx={{ display: { xs: "flex", md: "none" } }}
             >
               MANUEL FEREDE
             </Typography>
