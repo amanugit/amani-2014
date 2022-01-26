@@ -6,7 +6,9 @@ import pr from "../public/imgs/pr.jpg";
 import na from "../public/imgs/na.jpg";
 import z from "../public/imgs/z.jpg";
 import bl from "../public/imgs/bl.jpg";
+import br from "../public/imgs/br.jpg";
 import fb from "../public/imgs/fb.jpg";
+import dv from "../public/imgs/dv.jpg";
 import mycart from "../public/imgs/mycart.jpg";
 import { Box } from "@mui/system";
 import Image from "next/image";
@@ -61,7 +63,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/wmn.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={wmn}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="wmn"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -135,7 +143,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/mycart.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={mycart}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="mycart"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -210,7 +224,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/pr.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={pr}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="pr"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -282,7 +302,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/md.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={md}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="md"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -324,7 +350,7 @@ function Works() {
               variant="h5"
               sx={{ mb: 2, fontWeight: 700, textAlign: "center" }}
             >
-              Natours
+              Facebook clone
             </Typography>
             <Box
               sx={{
@@ -355,7 +381,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/fb.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={fb}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="fb"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -428,7 +460,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/z.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={z}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="z"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -502,7 +540,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/na.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={na}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="na"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -575,7 +619,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/bl.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={bl}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="bl"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -649,7 +699,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/br.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={br}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="br"
+              ></Image>
 
               <Box
                 className="upCard"
@@ -722,7 +778,13 @@ function Works() {
                 },
               }}
             >
-              <img src="../imgs/dv.jpg" style={{ width: "100%" }}></img>
+              <Image
+                src={dv}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="dv"
+              ></Image>
 
               <Box
                 className="upCard"
