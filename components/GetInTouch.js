@@ -37,7 +37,7 @@ function GetInTouch() {
             divider={<Divider orientation="vertical" flexItem />}
           >
             <Stack
-              sx={{ display: { xs: "none", md: "flex" } }}
+              sx={{ display: { xs: "none", md: "flex", lg: "flex" } }}
               direction={{
                 xs: "row",
                 sm: "column",
@@ -89,7 +89,7 @@ function GetInTouch() {
             <Stack
               direction="row"
               spacing={2}
-              sx={{ display: { xs: "flex", md: "none" } }}
+              sx={{ display: { xs: "flex", md: "none", lg: "none" } }}
             >
               <a
                 href="https://www.instagram.com/amanii2022/"
