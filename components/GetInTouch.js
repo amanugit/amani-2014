@@ -37,6 +37,7 @@ function GetInTouch() {
             divider={<Divider orientation="vertical" flexItem />}
           >
             <Stack
+              sx={{ display: { xs: "none", md: "flex" } }}
               direction={{
                 xs: "row",
                 sm: "column",
@@ -83,6 +84,35 @@ function GetInTouch() {
               >
                 Instagram
               </Button>
+            </Stack>
+
+            <Stack
+              direction="row"
+              spacing={2}
+              sx={{ display: { xs: "flex", md: "none" } }}
+            >
+              <a
+                href="https://www.instagram.com/amanii2022/"
+                rel="noopener noreferrer"
+              >
+                <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
+                  <FaInstagram></FaInstagram>
+                </Avatar>
+              </a>
+              <a
+                href="https://twitter.com/Amani2021new"
+                rel="noopener noreferrer"
+              >
+                <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
+                  <FaTwitter></FaTwitter>
+                </Avatar>
+              </a>
+
+              <a href="https://github.com/amanugit" rel="noopener noreferrer">
+                <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
+                  <FaGithub></FaGithub>
+                </Avatar>
+              </a>
             </Stack>
             <Box>
               <Typography variant="body1">
