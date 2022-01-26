@@ -7,6 +7,10 @@
     "start": "next start -p $PORT",
     "lint": "next lint"
   },
+  "engines": {
+    "npm": "16.13.2",
+    "node": "8.1.2"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
