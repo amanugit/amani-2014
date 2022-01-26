@@ -30,7 +30,7 @@ function GetInTouch() {
             to contact me.
           </Typography>
         </Box>
-        <Box sx={{ width: 600, margin: "auto" }}>
+        <Box sx={{ maxWidth: "sm", margin: "auto" }}>
           <Stack
             direction={{ xs: "column", sm: "column", md: "row", lg: "row" }}
             spacing={{ xs: 2, sm: 2, md: 1, lg: 1 }}
