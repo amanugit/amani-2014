@@ -37,7 +37,12 @@ function GetInTouch() {
             divider={<Divider orientation="vertical" flexItem />}
           >
             <Stack
-              direction={{ xs: "row", sm: "column" }}
+              direction={{
+                xs: "row",
+                sm: "column",
+                md: "column",
+                lg: "column",
+              }}
               spacing={{ xs: 2, sm: 2, md: 2, lg: 3 }}
             >
               <Button

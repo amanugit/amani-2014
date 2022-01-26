@@ -135,7 +135,7 @@ function Layout({ children }) {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={goToLink}>
+                  <MenuItem key={page} onClick={goToLink} href={`#${page}`}>
                     <Typography textAlign="center">{page}</Typography>
                   </MenuItem>
                 ))}
