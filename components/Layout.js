@@ -1,5 +1,6 @@
 import { deepPurple, pink, purple } from "@mui/material/colors";
 import Cookies from "js-cookie";
+import Link from "next/link";
 import { createTheme } from "@mui/material";
 import React, { Fragment } from "react";
 import { useContext } from "react";
@@ -18,24 +19,8 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { ThemeProvider } from "@emotion/react";
 
-const pages = ["Home", "About", "Works", "Contact"];
+const pages = ["Home", "About", "Works", "Contact", "Skills"];
 function Layout({ children }) {
-  const goToLink = (e) => {
-    const hash = e.target.hash;
-
-    if (hash === "#home") {
-      window.scrollTo({
-        top: 0,
-        behavior: "auto",
-      });
-    } else {
-      const top = document.querySelectorAll(hash).offsetTop;
-      window.scrollTo({
-        top: top,
-        behavior: "smooth",
-      });
-    }
-  };
   const { state, dispatch } = useContext(Store);
   const { darkMode } = state;
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -52,13 +37,36 @@ function Layout({ children }) {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
   const darkModeChangeHandler = () => {
     dispatch({ type: darkMode ? "DARK_MODE_OFF" : "DARK_MODE_ON" });
     const newDarkMode = !darkMode;
     Cookies.set("darkMode", newDarkMode ? "ON" : "OFF");
+  };
+  const goToHome = (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  const goToLink = (e) => {
+    const hash = e.target.hash;
+    e.preventDefault();
+
+    if (hash === "#Home") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    } else {
+      const section = document.querySelector(hash);
+      // alert(section.offsetTop);
+      // alert(section.offsetTop - 70);
+      window.scrollTo({
+        top: section.offsetTop - 73,
+        behavior: "smooth",
+      });
+    }
   };
 
   const theme = createTheme({
@@ -97,10 +105,15 @@ function Layout({ children }) {
             sx={{ display: "flex", justifyContent: "space-between" }}
           >
             <Typography
+              onClick={goToHome}
               variant="h6"
               noWrap
               component="div"
-              sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
+              sx={{
+                mr: 2,
+                display: { xs: "none", md: "flex" },
+                cursor: "pointer",
+              }}
             >
               Amanuel
             </Typography>
@@ -135,11 +148,16 @@ function Layout({ children }) {
                 }}
               >
                 {pages.map((page) => (
-                  <a href={`#${page}`} key={page}>
-                    <MenuItem onClick={goToLink}>
+                  <Link
+                    href={`#${page}`}
+                    key={page}
+                    onClick={goToLink}
+                    passHref
+                  >
+                    <MenuItem onClick={handleCloseNavMenu}>
                       <Typography textAlign="center">{page}</Typography>
                     </MenuItem>
-                  </a>
+                  </Link>
                 ))}
               </Menu>
             </Box>

@@ -15,7 +15,13 @@ import Image from "next/image";
 function Works() {
   return (
     <div id="Works">
-      <Container sx={{ bgcolor: "Background.paper" }}>
+      <Container
+        sx={{
+          bgcolor: "Background.paper",
+          paddingTop: "30px",
+          paddingBottom: "30px",
+        }}
+      >
         <Box sx={{ my: 2 }}>
           <Typography variant="h4" sx={{ textAlign: "center" }}>
             Works
@@ -26,6 +32,84 @@ function Works() {
           </Typography>
         </Box>
         <Grid container spacing={4}>
+          <Grid item xs={12} sm={12} md={6}>
+            <Typography
+              variant="h5"
+              sx={{ mb: 2, fontWeight: 700, textAlign: "center" }}
+            >
+              Portifolio
+            </Typography>
+            <Box
+              sx={{
+                position: "relative",
+                overflow: "hidden",
+                ":hover": {
+                  "& .upCard": {
+                    bottom: 0,
+                  },
+                  "::after": {
+                    display: "block",
+                  },
+                },
+
+                "::after": {
+                  display: "none",
+                  transition: "0.2ms all easin-in-out",
+                  content: "''",
+                  position: "absolute",
+                  top: "0",
+                  bottom: "0",
+                  left: "0",
+                  right: "0",
+                  bgcolor: "black",
+                  obgcolor: "#1b5e20",
+                  opacity: "0.7",
+                  zIndex: 1,
+                },
+              }}
+            >
+              <Image
+                src={pr}
+                sizes="100vw"
+                layout="responsive"
+                objectFit="cover"
+                alt="pr"
+              ></Image>
+
+              <Box
+                className="upCard"
+                sx={{
+                  position: "absolute",
+                  bottom: "-100%",
+                  left: "0",
+                  right: "0",
+                  p: 2,
+                  color: "white",
+                  fontWeight: 700,
+                  bgcolor: "white",
+                  color: "black",
+                  transition: "0.5s",
+                  textAlign: "center",
+                  zIndex: 2,
+                }}
+              >
+                <Typography variant="h5" sx={{ textAlign: "center" }}>
+                  My Portifolio
+                </Typography>
+                <Typography variant="body1" sx={{ textAlign: "center" }}>
+                  done React Materialize Ui, React
+                </Typography>
+                <Button
+                  href="#"
+                  color="secondary"
+                  variant="contained"
+                  sx={{ my: 2 }}
+                >
+                  View the project
+                </Button>
+              </Box>
+            </Box>
+          </Grid>
           <Grid item xs={12} sm={12} md={6}>
             <Box>
               <Typography
@@ -186,86 +270,7 @@ function Works() {
               </Box>
             </Box>
           </Grid>
-        </Grid>
-        <Grid container spacing={4} sx={{ my: 1 }}>
-          <Grid item xs={12} sm={12} md={6}>
-            <Typography
-              variant="h5"
-              sx={{ mb: 2, fontWeight: 700, textAlign: "center" }}
-            >
-              Portifolio
-            </Typography>
-            <Box
-              sx={{
-                position: "relative",
-                overflow: "hidden",
-                ":hover": {
-                  "& .upCard": {
-                    bottom: 0,
-                  },
-                  "::after": {
-                    display: "block",
-                  },
-                },
 
-                "::after": {
-                  display: "none",
-                  transition: "0.2ms all easin-in-out",
-                  content: "''",
-                  position: "absolute",
-                  top: "0",
-                  bottom: "0",
-                  left: "0",
-                  right: "0",
-                  bgcolor: "black",
-                  obgcolor: "#1b5e20",
-                  opacity: "0.7",
-                  zIndex: 1,
-                },
-              }}
-            >
-              <Image
-                src={pr}
-                sizes="100vw"
-                layout="responsive"
-                objectFit="cover"
-                alt="pr"
-              ></Image>
-
-              <Box
-                className="upCard"
-                sx={{
-                  position: "absolute",
-                  bottom: "-100%",
-                  left: "0",
-                  right: "0",
-                  p: 2,
-                  color: "white",
-                  fontWeight: 700,
-                  bgcolor: "white",
-                  color: "black",
-                  transition: "0.5s",
-                  textAlign: "center",
-                  zIndex: 2,
-                }}
-              >
-                <Typography variant="h5" sx={{ textAlign: "center" }}>
-                  My Portifolio
-                </Typography>
-                <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  done React Materialize Ui, React
-                </Typography>
-                <Button
-                  href="#"
-                  color="secondary"
-                  variant="contained"
-                  sx={{ my: 2 }}
-                >
-                  View the project
-                </Button>
-              </Box>
-            </Box>
-          </Grid>
           <Grid item xs={12} sm={12} md={6}>
             <Typography
               variant="h5"

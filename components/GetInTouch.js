@@ -24,7 +24,8 @@ function GetInTouch() {
         sx={{
           bgcolor: darkMode ? "#000" : "#f5f5f5",
           color: darkMode ? "#fff" : "#000",
-          py: 3,
+          paddingTop: "30px",
+          paddingBottom: "30px",
         }}
         maxWidth={false}
       >
@@ -39,19 +40,17 @@ function GetInTouch() {
         </Box>
         <Box sx={{ maxWidth: "sm", margin: "auto" }}>
           <Stack
-            direction={{ xs: "column", sm: "column", md: "row", lg: "row" }}
-            spacing={{ xs: 2, sm: 2, md: 1, lg: 1 }}
-            divider={<Divider orientation="vertical" flexItem />}
+            direction={{ xs: "column", sm: "column", md: "row" }}
+            spacing={{ xs: 2, sm: 2, lg: 4 }}
           >
             <Stack
-              sx={{ display: { xs: "none", md: "flex", lg: "flex" } }}
-              direction={{
-                xs: "row",
-                sm: "column",
-                md: "column",
-                lg: "column",
+              sx={{
+                paddingRight: "40px",
+                display: { xs: "none", md: "flex", lg: "flex" },
+                borderRight: "1px solid #ddd",
               }}
-              spacing={{ xs: 2, sm: 1, md: 1, lg: 1 }}
+              direction="column"
+              spacing={{ md: 2, lg: 2 }}
             >
               <Button
                 href="https://github.com/amanugit"

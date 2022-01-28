@@ -13,7 +13,8 @@ function AboutMe() {
         sx={{
           bgcolor: darkMode ? "#000" : "#f06292",
           color: darkMode ? "#fff" : "#fff",
-          py: 4,
+          paddingTop: "30px",
+          paddingBottom: "30px",
         }}
       >
         <Box
