@@ -22,7 +22,7 @@ function Banner() {
         },
         position: "relative",
         minHeight: "85vh",
-        backgroundImage: "url('../imgs/2.jpg')",
+        backgroundImage: "url('../imgs/zz.jpg')",
         backgroundPosition: "top center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -39,7 +39,7 @@ function Banner() {
           display: { xs: "none", md: "block" },
         }}
       >
-        <Typography variant="h3" mb={3} sx={{ color: "white" }}>
+        <Typography variant="h3" mb={3} sx={{ color: "yellow" }}>
           Hi, I Am Amanuel Ferede. A Full Stack Software Engineer
         </Typography>
         <Stack direction="row" spacing={2}>
@@ -143,9 +143,8 @@ function Banner() {
           },
         }}
       >
-        <Typography variant="h6" sx={{ color: "white", fontWeight: "bolder" }}>
-          &quot; I choose a lazy person to do a hard job. Because a lazy person
-          will find an easy way to do it. &quot; -Bill Gates
+        <Typography variant="h6" sx={{ color: "yellow", fontWeight: "bolder" }}>
+          &quot; Focus on progress not perfection. &quot; -Bill Phillips
         </Typography>
       </Box>
       <Box
