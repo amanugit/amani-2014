@@ -2,7 +2,7 @@ import { Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import wmn from "../public/imgs/wmn.jpg";
 import md from "../public/imgs/md.jpg";
-import pr from "../public/imgs/pr.jpg";
+import zz from "../public/imgs/pr.jpg";
 import na from "../public/imgs/na.jpg";
 import z from "../public/imgs/z.jpg";
 import bl from "../public/imgs/bl.jpg";
