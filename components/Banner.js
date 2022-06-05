@@ -17,7 +17,7 @@ function Banner() {
           right: 0,
           left: 0,
           bottom: 0,
-          bgcolor: "#1b5e20",
+          bgcolor: "#000",
           opacity: 0.6,
         },
         position: "relative",
@@ -143,7 +143,7 @@ function Banner() {
           },
         }}
       >
-        <Typography variant="h2" sx={{ color: "yellow", fontWeight: "bolder" }}>
+        <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder" }}>
           &quot; Focus on progress not perfection. &quot; -Bill Phillips
         </Typography>
       </Box>
