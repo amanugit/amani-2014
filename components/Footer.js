@@ -17,7 +17,7 @@ function Footer() {
           <Stack direction="row" spacing={2}>
             <Avatar
               sx={{ width: 100, height: 100 }}
-              src="../imgs/22.png"
+              src="../imgs/zz.jpg"
             ></Avatar>
             <Box>
               <Typography variant="h4">Amanuel Ferede</Typography>
@@ -25,7 +25,7 @@ function Footer() {
                 Full Stack Software Engineer
               </Typography>
               <Typography variant="body2">
-                Looking for a job entry level or itermidiate level
+              I've learned how my own perfectionism can cripple me.
               </Typography>
             </Box>
           </Stack>
@@ -33,7 +33,7 @@ function Footer() {
         <Grid item xs={12} sm={12} md={4}>
           <Typography variant="body1">
             Site made with Next.Js and MUi, hosted on netlify, full source code
-            availble on github
+            availble on <a href="https://github.com/amanugit/My-portifolio" rel="noopener noreferrer">github</a>
           </Typography>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
