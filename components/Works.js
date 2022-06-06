@@ -1,7 +1,6 @@
 import { Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import wmn from "../public/imgs/wmn.jpg";
-import ss from "../public/imgs/ss.jpg";
 import md from "../public/imgs/md.jpg";
 import zz from "../public/imgs/zz.jpg";
 import na from "../public/imgs/na.jpg";
