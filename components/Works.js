@@ -229,7 +229,7 @@ function Works() {
               }}
             >
               <Image
-                src="../public/imgs/ss.jpg"
+                src={wmn}
                 sizes="100vw"
                 layout="responsive"
                 objectFit="cover"
