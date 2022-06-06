@@ -1,6 +1,6 @@
 import { Container, Grid, Rating, Typography } from "@mui/material";
-import { FaReact, FaNodeJs, FaBootstrap } from "react-icons/fa";
-import { DiMongodb, DiJqueryLogo, DiMaterializecss } from "react-icons/di";
+import { FaReact, FaNodeJs,  } from "react-icons/fa";
+import { DiMongodb, DiGit, DiDocker } from "react-icons/di";
 import React from "react";
 import { Box } from "@mui/system";
 import { useContext } from "react";
@@ -72,7 +72,7 @@ function TeachStacks() {
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
               Next Js
             </Typography>
-            <Rating name="read-only" value={4} readOnly />
+            <Rating name="read-only" value={3.5} readOnly />
           </Grid>
           <Grid
             item
@@ -90,7 +90,7 @@ function TeachStacks() {
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
               Node Js
             </Typography>
-            <Rating name="read-only" value={4} readOnly />
+            <Rating name="read-only" value={3} readOnly />
           </Grid>
           <Grid
             item
@@ -108,7 +108,7 @@ function TeachStacks() {
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
               Mongo DB
             </Typography>
-            <Rating name="read-only" value={4} readOnly />
+            <Rating name="read-only" value={3} readOnly />
           </Grid>
           <Grid
             item
@@ -122,11 +122,11 @@ function TeachStacks() {
               flexDirection: "column",
             }}
           >
-            <FaBootstrap size={70} style={{ margin: "10px 0" }}></FaBootstrap>
+            <DiGit size={70} style={{ margin: "10px 0" }}></DiGit>
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
-              Bootstrap
+              Git
             </Typography>
-            <Rating name="read-only" value={4} readOnly />
+            <Rating name="read-only" value={3} readOnly />
           </Grid>
           <Grid
             item
@@ -140,14 +140,14 @@ function TeachStacks() {
               flexDirection: "column",
             }}
           >
-            <DiMaterializecss
+            <DiDocker
               size={70}
               style={{ margin: "10px 0" }}
-            ></DiMaterializecss>
+            ></DiDocker>
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
-              MUI
+              Docker
             </Typography>
-            <Rating name="read-only" value={4} readOnly />
+            <Rating name="read-only" value={3} readOnly />
           </Grid>
         </Grid>
       </Container>
