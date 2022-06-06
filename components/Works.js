@@ -230,7 +230,7 @@ function Works() {
               }}
             >
               <Image
-                src={ss}
+                src="../public/imgs/ss.jpg"
                 sizes="100vw"
                 layout="responsive"
                 objectFit="cover"
