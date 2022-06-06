@@ -234,7 +234,7 @@ function Works() {
                 sizes="100vw"
                 layout="responsive"
                 objectFit="cover"
-                alt="wmn"
+                alt="admin"
               ></Image>
 
               <Box
