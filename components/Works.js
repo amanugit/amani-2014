@@ -8,9 +8,9 @@ import na from "../public/imgs/na.jpg";
 import z from "../public/imgs/z.jpg";
 import bl from "../public/imgs/bl.jpg";
 import br from "../public/imgs/br.jpg";
-import fb from "../public/imgs/fb.jpg";
+
 import dv from "../public/imgs/dv.jpg";
-import mycart from "../public/imgs/mycart.jpg";
+
 import { Box } from "@mui/system";
 import Image from "next/image";
 function Works() {
