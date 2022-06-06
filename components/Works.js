@@ -1,7 +1,7 @@
 import { Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import wmn from "../public/imgs/wmn.jpg";
-import admin from "../public/imgs/admin.jpg";
+import ss from "../public/imgs/ss.jpg";
 import md from "../public/imgs/md.jpg";
 import zz from "../public/imgs/zz.jpg";
 import na from "../public/imgs/na.jpg";
@@ -230,7 +230,7 @@ function Works() {
               }}
             >
               <Image
-                src={admin}
+                src={ss}
                 sizes="100vw"
                 layout="responsive"
                 objectFit="cover"
