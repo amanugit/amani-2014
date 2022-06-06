@@ -144,7 +144,7 @@ function Banner() {
         }}
       >
         <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder" }}>
-        &apos; Focus on progress not perfection. &apos; -Bill Phillips
+          &quot; Focus on progress not perfection. &quot; -Bill Phillips
         </Typography>
       </Box>
       <Box
