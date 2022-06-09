@@ -143,9 +143,13 @@ function Banner() {
           },
         }}
       >
-        <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder" }}>
+        <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder", marginBottom: "5px"}}>
           &quot; Focus on progress not perfection. &quot; -Bill Phillips
         </Typography>
+        <Typography variant="h5" sx={{ color: "white", fontWeight: "bolder", fontStyle: "italic" }}>
+          &quot; I have learned how my own perfectionism can cripple me. &quot;
+        </Typography>
+        
       </Box>
       <Box
         sx={{

@@ -24,9 +24,6 @@ function Footer() {
               <Typography variant="body1">
                 Full Stack Software Engineer
               </Typography>
-              <Typography variant="h3">
-              I have learned how my own perfectionism can cripple me.
-              </Typography>
             </Box>
           </Stack>
         </Grid>
