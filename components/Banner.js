@@ -143,7 +143,7 @@ function Banner() {
           },
         }}
       >
-        <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder", marginBottom: "5px"}}>
+        <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder", marginBottom: "15px"}}>
           &quot; Focus on progress not perfection. &quot; -Bill Phillips
         </Typography>
         <Typography variant="h5" sx={{ color: "white", fontWeight: "bolder", fontStyle: "italic" }}>
