@@ -32,7 +32,7 @@ function Footer() {
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
           <Typography variant="body1">
-            Site made with Next.Js and MUi, hosted on netlify, full source code
+            Site made with Next.Js and MUi, hosted on Vercel, full source code
             availble on <a href="https://github.com/amanugit/amani-2014" rel="noopener noreferrer" style={{fontWeight: 'bolder'}}>github</a>
           </Typography>
         </Grid>
