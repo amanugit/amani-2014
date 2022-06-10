@@ -29,8 +29,7 @@ function AboutMe() {
             I am a full stack Software Engineer with a passion to create
             marvelous software and programming solutions to different real life
             problems. I have an intuitive desire to learn new technologies and
-            how they work in depth. I also have good communication skills and
-            work well with other team members.
+            how they work in depth.
           </Typography>
         </Box>
       </Container>
