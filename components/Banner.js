@@ -149,6 +149,9 @@ function Banner() {
             </Avatar>
           </a>
         </Stack>
+        <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder", marginTop: "30px"}}>
+          +251996295719 | +251982516196
+        </Typography>
       </Box>
       <Box
         sx={{
@@ -167,12 +170,10 @@ function Banner() {
         <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder", marginBottom: "25px"}}>
           &quot; Focus on progress not perfection. &quot; -Bill Phillips
         </Typography>
-        <Typography variant="h5" sx={{ color: "white", fontWeight: "bolder", fontStyle: "italic" }}>
+        <Typography variant="h5" sx={{ color: "white", fontWeight: "bolder", fontStyle: "italic", marginBottom: "25px" }}>
           &quot; I have learned how my own perfectionism can cripple me. &quot;
         </Typography>
-        <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder", marginBottom: "25px"}}>
-          +251996295719 | +251982516196
-        </Typography>
+       
       </Box>
       <Box
         sx={{

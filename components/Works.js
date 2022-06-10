@@ -98,7 +98,7 @@ function Works() {
                   My Portifolio
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  done React Materialize Ui, React
+                  Technologies used: NextJs, Materialize Ui.
                 </Typography>
                 <Button
                   href="#"
@@ -177,7 +177,7 @@ function Works() {
                   My First React Project
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  this project is done using MERN STACK, MongoDb, ExpressJs,
+                Technologies used: MERN STACK: MongoDb, ExpressJs,
                   ReactJs and NodeJs. 
                 </Typography>
                 <Button
@@ -258,7 +258,7 @@ function Works() {
                   Simple admin dashboard for my simple react project
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  this project is done using MERN STACK, MongoDb, ExpressJs,
+                Technologies used: MERN STACK: MongoDb, ExpressJs,
                   ReactJs and NodeJs.
                 </Typography>
                 <Button
@@ -338,7 +338,7 @@ function Works() {
                   Medico
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  done using html, css, jquery and bootstrap and other libraries
+                Technologies used: html, css, jquery and bootstrap and other libraries
                 </Typography>
                 <Button
                   href="https://medicioo.herokuapp.com/"
@@ -418,7 +418,7 @@ function Works() {
                   Next Amanzona
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  Done using Next, express, node, and mui for design
+                Technologies used: Next, express, node, and mui for design
                 </Typography>
                 <Button
                   href="https://amani-next-amazona.vercel.app/"
@@ -498,7 +498,7 @@ function Works() {
                   Natours
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  done using html, css, scss, flexbox
+                Technologies used: html, css, flexbox, grid.
                 </Typography>
                 <Button
                   href="https://amani-natours.herokuapp.com/index.html"
@@ -577,7 +577,7 @@ function Works() {
                   Simple Blog
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  Done using Next, React, Graphql, Twindcss
+                Technologies used: Next, React, Graphql, Twindcss
                 </Typography>
                 <Button
                   href="https://blog-amany.herokuapp.com/"
@@ -657,7 +657,7 @@ function Works() {
                   Beach Resort
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  Done using React, Context, styled components
+                Technologies used: React, Context API, styled components
                 </Typography>
                 <Button
                   href="https://aman-real-state.herokuapp.com/"
@@ -736,7 +736,7 @@ function Works() {
                   Div Connector
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "center" }}>
-                  Done using React, Context, React bootstrap, node and express and redux
+                Technologies used: React, Redux, React bootstrap, node and express
                 </Typography>
                 <Button
                   href="https://amani-dev-con.herokuapp.com/"
