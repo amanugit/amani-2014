@@ -3,7 +3,7 @@ import { Avatar, Container, Stack, Typography } from "@mui/material";
 
 import { Box } from "@mui/system";
 import { FacebookSharp, LinkedIn } from "@mui/icons-material";
-import { SiUpwork, SiFreelancer } from "react-icons/si";
+import { SiUpwork, SiFreelancer,  } from "react-icons/si";
 function Banner() {
   return (
     <Container
@@ -127,6 +127,27 @@ function Banner() {
               <SiFreelancer />
             </Avatar>
           </a>
+          <a
+            href="https://drive.google.com/file/d/1yLEQ3mEcx1uOThjcb-pPbYLCiGQ_4wNf/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Avatar
+              sx={{
+                bgcolor: "white",
+                color: "black",
+                transition: "0.5s",
+
+                ":hover": {
+                  bgcolor: "#f06292",
+                  color: "white",
+                  transform: "scale(1.3)",
+                },
+              }}
+            >
+              <Typography variant="body1">CV</Typography>
+            </Avatar>
+          </a>
         </Stack>
       </Box>
       <Box
@@ -149,7 +170,9 @@ function Banner() {
         <Typography variant="h5" sx={{ color: "white", fontWeight: "bolder", fontStyle: "italic" }}>
           &quot; I have learned how my own perfectionism can cripple me. &quot;
         </Typography>
-        
+        <Typography variant="h4" sx={{ color: "yellow", fontWeight: "bolder", marginBottom: "25px"}}>
+          +251996295719 | +251982516196
+        </Typography>
       </Box>
       <Box
         sx={{

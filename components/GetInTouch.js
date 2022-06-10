@@ -121,8 +121,11 @@ function GetInTouch() {
               </a>
             </Stack>
             <Box>
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{marginBottom: '15px'}}>
                 Do you prefer an email ? Reach out at my address below
+              </Typography>
+              <Typography variant="body1" sx={{marginBottom: '15px', color: "#e91e63"}}>
+                amannew49@gmail.com | amanuelferede43@gmail.com
               </Typography>
               <Button variant="contained" sx={{ my: 1 }} onClick={sendEmail}>
                 Compose
