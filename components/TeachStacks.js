@@ -90,7 +90,7 @@ function TeachStacks() {
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
               Node Js
             </Typography>
-            <Rating name="read-only" value={3} readOnly />
+            <Rating name="read-only" value={3.7} readOnly />
           </Grid>
           <Grid
             item
@@ -108,7 +108,7 @@ function TeachStacks() {
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
               Mongo DB
             </Typography>
-            <Rating name="read-only" value={3} readOnly />
+            <Rating name="read-only" value={3.8} readOnly />
           </Grid>
           <Grid
             item
@@ -126,7 +126,7 @@ function TeachStacks() {
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
               Git
             </Typography>
-            <Rating name="read-only" value={3} readOnly />
+            <Rating name="read-only" value={3.4} readOnly />
           </Grid>
           <Grid
             item
