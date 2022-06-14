@@ -126,7 +126,7 @@ function TeachStacks() {
             <Typography variant="h5" color="main" sx={{ textAlign: "center" }}>
               Git
             </Typography>
-            <Rating name="read-only" value={3.4} readOnly />
+            <Rating name="read-only" value={3.6} readOnly />
           </Grid>
           <Grid
             item
