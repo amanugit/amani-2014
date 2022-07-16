@@ -17,7 +17,7 @@ function Footer() {
           <Stack direction="row" spacing={2}>
             <Avatar
               sx={{ width: 100, height: 100 }}
-              src="../imgs/srrr.jpg"
+              src="../imgs/me.jpg"
             ></Avatar>
             <Box>
               <Typography variant="h4">Amanuel Ferede</Typography>
