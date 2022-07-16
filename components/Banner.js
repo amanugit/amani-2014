@@ -23,7 +23,7 @@ function Banner() {
         position: "relative",
         minHeight: "85vh",
         backgroundImage: "url('../imgs/me.jpg')",
-        backgroundPosition: "top center",
+        backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         position: "relative",
