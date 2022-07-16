@@ -22,7 +22,7 @@ function Banner() {
         },
         position: "relative",
         minHeight: "85vh",
-        background: "#ef3a98",
+        bgcolor: "#ef3a98",
         backgroundImage: "url('../imgs/me.jpg')",
         backgroundPosition: "center",
         backgroundSize: "contain",
