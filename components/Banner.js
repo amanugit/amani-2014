@@ -24,7 +24,7 @@ function Banner() {
         minHeight: "85vh",
         backgroundImage: "url('../imgs/me.jpg')",
         backgroundPosition: "center",
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
         position: "relative",
       }}
