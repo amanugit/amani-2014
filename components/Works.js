@@ -3,7 +3,7 @@ import React from "react";
 import wmn from "../public/imgs/wmn.jpg";
 import admin from "../public/imgs/admin.jpg";
 import md from "../public/imgs/md.jpg";
-import zz from "../public/imgs/zz.jpg";
+import me from "../public/imgs/me.jpg";
 import na from "../public/imgs/na.jpg";
 import z from "../public/imgs/z.jpg";
 import bl from "../public/imgs/bl.jpg";
@@ -70,7 +70,7 @@ function Works() {
               }}
             >
               <Image
-                src={zz}
+                src={me}
                 sizes="100vw"
                 layout="responsive"
                 objectFit="cover"
