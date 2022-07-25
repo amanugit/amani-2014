@@ -4,6 +4,7 @@ import wmn from "../public/imgs/wmn.jpg";
 import admin from "../public/imgs/admin.jpg";
 import md from "../public/imgs/md.jpg";
 import me from "../public/imgs/me.jpg";
+
 import na from "../public/imgs/na.jpg";
 import z from "../public/imgs/z.jpg";
 import bl from "../public/imgs/bl.jpg";
