@@ -4,7 +4,6 @@ import wmn from "../public/imgs/wmn.jpg";
 import admin from "../public/imgs/admin.jpg";
 import md from "../public/imgs/md.jpg";
 import me from "../public/imgs/me.jpg";
-import mot from "../public/imgs/mot.jpg";
 import na from "../public/imgs/na.jpg";
 import z from "../public/imgs/z.jpg";
 import bl from "../public/imgs/bl.jpg";
@@ -71,7 +70,7 @@ function Works() {
               }}
             >
               <Image
-                src={mot}
+                src={me}
                 sizes="100vw"
                 layout="responsive"
                 objectFit="cover"
