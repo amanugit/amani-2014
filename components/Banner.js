@@ -22,10 +22,9 @@ function Banner() {
         },
         position: "relative",
         minHeight: "85vh",
-        bgcolor: "#ef3a98",
         backgroundImage: "url('../imgs/mot.jpg')",
         backgroundPosition: "center",
-        backgroundSize: "contain",
+        backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         position: "relative",
       }}
