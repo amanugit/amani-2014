@@ -23,7 +23,7 @@ function Banner() {
         position: "relative",
         minHeight: "100vh",
         backgroundAttachment: "fixed",
-        backgroundImage: "url('../imgs/444.jpg')",
+        backgroundImage: "url('../imgs/444.JPG')",
         backgroundPosition: "top center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -129,7 +129,7 @@ function Banner() {
             </Avatar>
           </a>
           <a
-            href="https://drive.google.com/file/d/1yLEQ3mEcx1uOThjcb-pPbYLCiGQ_4wNf/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JVYMxO0Xf_X4L529fHPTguEtRm1eKMod/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
