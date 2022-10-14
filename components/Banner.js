@@ -23,7 +23,7 @@ function Banner() {
         position: "relative",
         minHeight: "100vh",
         backgroundAttachment: "fixed",
-        backgroundImage: "url('../imgs/mot.jpg')",
+        backgroundImage: "url('../imgs/15.jpg')",
         backgroundPosition: "top center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -66,7 +66,7 @@ function Banner() {
             </Avatar>
           </a>
           <a
-            href="https://www.facebook.com/amanuel.amani.370"
+            href="https://www.facebook.com/Zamanuel2015"
             target="_blank"
             rel="noopener noreferrer"
           >

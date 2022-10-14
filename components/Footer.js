@@ -36,7 +36,8 @@ function Footer() {
         <Grid item xs={12} sm={12} md={4}>
           <Stack direction="row" spacing={2}>
             <a
-              href="https://www.facebook.com/amanuel.amani.370"
+              href="https://www.facebook.com/Zamanuel2015"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
@@ -45,6 +46,7 @@ function Footer() {
             </a>
             <a
               href="https://www.instagram.com/amanii2022/"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
@@ -53,6 +55,7 @@ function Footer() {
             </a>
             <a
               href="https://twitter.com/Amani2021new"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
@@ -61,13 +64,16 @@ function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/in/amani2021/"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
                 <FaLinkedin></FaLinkedin>
               </Avatar>
             </a>
-            <a href="https://github.com/amanugit" rel="noopener noreferrer">
+            <a href="https://github.com/amanugit" 
+            target="_blank"
+            rel="noopener noreferrer">
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
                 <FaGithub></FaGithub>
               </Avatar>
