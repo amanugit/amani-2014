@@ -30,7 +30,7 @@ function Footer() {
         <Grid item xs={12} sm={12} md={4}>
           <Typography variant="body1">
             Site made with Next.Js and MUi, hosted on Vercel, full source code
-            availble on <a href="https://github.com/amanugit/amani-2014" rel="noopener noreferrer" style={{fontWeight: 'bolder'}}>github</a>
+            availble on <a href="https://github.com/amanugit/amani-2014" rel="noopener noreferrer" style={{ fontWeight: 'bolder' }}>github</a>
           </Typography>
         </Grid>
         <Grid item xs={12} sm={12} md={4}>
@@ -71,9 +71,9 @@ function Footer() {
                 <FaLinkedin></FaLinkedin>
               </Avatar>
             </a>
-            <a href="https://github.com/amanugit" 
-            target="_blank"
-            rel="noopener noreferrer">
+            <a href="https://github.com/amanugit"
+              target="_blank"
+              rel="noopener noreferrer">
               <Avatar sx={{ bgcolor: "#e91e63", color: "#fff" }}>
                 <FaGithub></FaGithub>
               </Avatar>
