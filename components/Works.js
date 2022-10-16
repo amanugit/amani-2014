@@ -341,7 +341,7 @@ function Works() {
                 Technologies used: html, css, jquery and bootstrap and other libraries
                 </Typography>
                 <Button
-                  href="https://vercel.com/amanugit/medico"
+                  href="https://medico-mu.vercel.app/"
                   color="secondary"
                   variant="contained"
                   sx={{ my: 2 }}
@@ -580,7 +580,7 @@ function Works() {
                 Technologies used: Next, React, Graphql, Twindcss
                 </Typography>
                 <Button
-                  href="https://vercel.com/amanugit/blog-amany"
+                  href="https://blog-amany.vercel.app/"
                   color="secondary"
                   variant="contained"
                   sx={{ my: 2 }}
