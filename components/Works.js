@@ -341,7 +341,7 @@ function Works() {
                 Technologies used: html, css, jquery and bootstrap and other libraries
                 </Typography>
                 <Button
-                  href="https://medicioo.herokuapp.com/"
+                  href="https://vercel.com/amanugit/medico"
                   color="secondary"
                   variant="contained"
                   sx={{ my: 2 }}
@@ -501,7 +501,7 @@ function Works() {
                 Technologies used: html, css, flexbox, grid.
                 </Typography>
                 <Button
-                  href="https://amani-natours.herokuapp.com/index.html"
+                  href="https://amani-natours.vercel.app/"
                   color="secondary"
                   variant="contained"
                   sx={{ my: 2 }}
@@ -580,7 +580,7 @@ function Works() {
                 Technologies used: Next, React, Graphql, Twindcss
                 </Typography>
                 <Button
-                  href="https://blog-amany.herokuapp.com/"
+                  href="https://vercel.com/amanugit/blog-amany"
                   color="secondary"
                   variant="contained"
                   sx={{ my: 2 }}
@@ -660,7 +660,7 @@ function Works() {
                 Technologies used: React, Context API, styled components
                 </Typography>
                 <Button
-                  href="https://aman-real-state.herokuapp.com/"
+                  href="https://aman-real-state.vercel.app/"
                   color="secondary"
                   variant="contained"
                   sx={{ my: 2 }}
