@@ -125,7 +125,7 @@ function GetInTouch() {
                 Do you prefer an email ? Reach out at my address below
               </Typography>
               <Typography variant="body1" sx={{marginBottom: '15px', color: "#e91e63"}}>
-                amannew49@gmail.com | amanuelferede43@gmail.com
+                amanytry2013@gmail.com
               </Typography>
               <Button variant="contained" sx={{ my: 1 }} onClick={sendEmail}>
                 Compose
