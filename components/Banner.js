@@ -129,7 +129,7 @@ function Banner() {
             </Avatar>
           </a>
           <a
-            href="https://drive.google.com/file/d/1JVYMxO0Xf_X4L529fHPTguEtRm1eKMod/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Dl_gGXeEoDvJOwJPpEd2qap5OCZbuP5v/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
